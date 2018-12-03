@@ -1,17 +1,17 @@
-#Distributed Transaction 分布式事务
+# Distributed Transaction 分布式事务
 
 
-##dt-jta
+## dt-jta
 基于数据库XA/JTA协议的方式
 
-###1.引入依赖
+### 1.引入依赖
 
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-jta-atomikos</artifactId>
       </dependency>
 
-###2.配置数据源
+### 2.配置数据源
 
     spring:
       jta:
@@ -32,7 +32,7 @@
 
 
 
-##dt-mq
+## dt-mq
 
 *需要MQ支持事务
 
