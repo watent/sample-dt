@@ -20,14 +20,14 @@
             order-datasource:
               xa-properties:
                 url: jdbc:mysql://db.watent.net:3306/test-order-db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
-                user: tony
-                password: tony
+                user: root
+                password: root
               xa-data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
             dispatch-datasource:
               xa-properties:
                 url: jdbc:mysql://db.watent.net:3306/test-dispatch-db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
-                user: tony
-                password: tony
+                user: root
+                password: root
               xa-data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
 
 
