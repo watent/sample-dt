@@ -5,12 +5,14 @@
 基于数据库XA/JTA协议的方式
 
 ###1.引入依赖
+
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-jta-atomikos</artifactId>
       </dependency>
 
 ###2.配置数据源
+
     spring:
       jta:
         atomikos:
