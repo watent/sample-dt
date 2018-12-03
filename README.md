@@ -32,9 +32,6 @@
 
 ##dt-mq
 
-![avatar](/Users/ytx/Downloads/img.png "示意图")
-
-
 *需要MQ支持事务
 
 *业务操作和本地消息表操作在一个事务内
